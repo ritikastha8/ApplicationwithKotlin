@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Radiobutton">
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/btnflower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="flower" />
+
+        <RadioButton
+            android:id="@+id/btnwhiteflower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="whiteflower" />
+
+        <RadioButton
+            android:id="@+id/btnlavender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lavender" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/btnimageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flower" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

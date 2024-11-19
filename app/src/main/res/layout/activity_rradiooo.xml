@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rradiooo">
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="99dp"
+        >
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/btnlion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lion" />
+
+        <RadioButton
+
+            android:id="@+id/btncow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cow" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imagelion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lion" />
+
+
+</LinearLayout>
